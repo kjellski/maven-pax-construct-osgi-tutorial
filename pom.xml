@@ -61,7 +61,8 @@
            | some example Pax-Runner settings
           -->
           <provision>
-            <param>--platform=felix</param>
+              <param>--platform=felix</param>
+              <param>--profiles=web</param>
           </provision>
         </configuration>
         <executions>

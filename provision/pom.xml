@@ -13,6 +13,7 @@
 
   <name>maven-pax-construct-osgi-tutorial - imported bundles</name>
 
+
   <packaging>pom</packaging>
 
   <!--
@@ -22,10 +23,31 @@
   -->
 
   <dependencies>
+    <!-- Apache Webconsole -->
     <dependency>
       <groupId>org.apache.felix</groupId>
       <artifactId>org.apache.felix.webconsole</artifactId>
-      <version>1.2.8</version>
+      <version>3.1.8</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.felix</groupId>
+      <artifactId>org.apache.felix.scr</artifactId>
+      <version>1.6.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.felix</groupId>
+      <artifactId>org.apache.felix.shell</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.felix</groupId>
+      <artifactId>org.osgi.service.obr</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.felix</groupId>
+      <artifactId>org.osgi.core</artifactId>
+      <version>1.0.0</version>
     </dependency>
   </dependencies>
 
